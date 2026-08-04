@@ -1,0 +1,110 @@
+/* LiftLog legal pages — minimal, legible, sin dependencias */
+:root {
+  --bg: #0c0d10;
+  --text: #e8e6e3;
+  --muted: #9a9590;
+  --accent: #e8c872;
+  --border: #2a2826;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a {
+  color: var(--accent);
+}
+
+.wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.5rem;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+nav.links {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+
+nav.links a {
+  margin-right: 1rem;
+}
+
+h2 {
+  font-size: 1.125rem;
+  margin: 2rem 0 0.75rem;
+}
+
+p,
+li {
+  font-size: 0.9375rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  margin: 1rem 0;
+}
+
+th,
+td {
+  border: 1px solid var(--border);
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  background: #16181c;
+}
+
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.doc-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.doc-list li {
+  margin: 0.75rem 0;
+}
+
+.doc-list a {
+  font-weight: 500;
+}
