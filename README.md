@@ -29,7 +29,7 @@ VITE_LEGAL_CONTACT_EMAIL=info@status-timer.com
 
 1. Modifica `legal.config.json` (referencia local; los HTML ya están rellenados).
 2. Si cambias textos, edita los `.html` directamente.
-3. Antes de monetizar: añade NIF/DNI y domicilio completo en `legal.html` (LSSI-CE).
+3. Antes de monetizar: revisa textos con un profesional si cambias el modelo de negocio.
 
 ## Publicar cambios
 
