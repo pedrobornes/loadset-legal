@@ -73,6 +73,17 @@ table {
   border-collapse: collapse;
   font-size: 0.875rem;
   margin: 1rem 0;
+  min-width: 28rem;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  margin: 1rem 0;
+}
+
+.table-wrap table {
+  margin: 0;
 }
 
 th,
