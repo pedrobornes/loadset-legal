@@ -1,6 +1,6 @@
-# liftlog-legal
+# loadset-legal
 
-Public legal documents for **LiftLog** (GitHub Pages).
+Public legal documents for **LoadSet** (GitHub Pages).
 
 **Owner:** Pedro Antonio Bornes Durán  
 **Contact:** info@status-timer.com  
@@ -10,19 +10,19 @@ Public legal documents for **LiftLog** (GitHub Pages).
 
 | Document | URL |
 |----------|-----|
-| Index | https://pedrobornes.github.io/liftlog-legal/ |
-| Privacy | https://pedrobornes.github.io/liftlog-legal/privacy.html |
-| Terms | https://pedrobornes.github.io/liftlog-legal/terms.html |
-| Legal notice | https://pedrobornes.github.io/liftlog-legal/legal.html |
+| Index | https://pedrobornes.github.io/loadset-legal/ |
+| Privacy | https://pedrobornes.github.io/loadset-legal/privacy.html |
+| Terms | https://pedrobornes.github.io/loadset-legal/terms.html |
+| Legal notice | https://pedrobornes.github.io/loadset-legal/legal.html |
 
-## App configuration (LiftLog)
+## App configuration (LoadSet)
 
-In `liftlog/frontend/.env`:
+In `loadset/frontend/.env`:
 
 ```env
-VITE_LEGAL_PRIVACY_URL=https://pedrobornes.github.io/liftlog-legal/privacy.html
-VITE_LEGAL_TERMS_URL=https://pedrobornes.github.io/liftlog-legal/terms.html
-VITE_LEGAL_NOTICE_URL=https://pedrobornes.github.io/liftlog-legal/legal.html
+VITE_LEGAL_PRIVACY_URL=https://pedrobornes.github.io/loadset-legal/privacy.html
+VITE_LEGAL_TERMS_URL=https://pedrobornes.github.io/loadset-legal/terms.html
+VITE_LEGAL_NOTICE_URL=https://pedrobornes.github.io/loadset-legal/legal.html
 VITE_LEGAL_CONTACT_EMAIL=info@status-timer.com
 ```
 

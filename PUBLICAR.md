@@ -1,52 +1,50 @@
-# Publicar liftlog-legal en GitHub Pages
+# Publicar loadset-legal en GitHub Pages
 
-Guía paso a paso (primera vez).
+Guía paso a paso (primera vez o tras renombrar desde liftlog-legal).
 
-## 1. Crear el repositorio en GitHub
+## 1. Renombrar el repositorio en GitHub (si aún se llama liftlog-legal)
 
-1. Abre https://github.com/new
-2. **Repository name:** `liftlog-legal`
-3. **Public**
-4. No marques «Add a README» (ya tienes archivos locales)
-5. Clic en **Create repository**
-
-## 2. Subir este directorio
-
-En PowerShell, desde `Desktop\liftlog-legal`:
+1. Abre https://github.com/pedrobornes/liftlog-legal → **Settings** → **General**
+2. **Repository name:** `loadset-legal` → **Rename**
+3. En local (desde `Desktop\loadset-legal`):
 
 ```powershell
-git init
-git branch -M main
-git add -A
-git commit -m "Sitio legal LiftLog (privacidad, términos, aviso legal)"
-git remote add origin https://github.com/pedrobornes/liftlog-legal.git
+git remote set-url origin https://github.com/pedrobornes/loadset-legal.git
+```
+
+## 2. Si creas el repo desde cero
+
+1. Abre https://github.com/new
+2. **Repository name:** `loadset-legal`
+3. **Public**
+4. No marques «Add a README»
+5. Clic en **Create repository**
+
+```powershell
+cd $env:USERPROFILE\Desktop\loadset-legal
+git remote add origin https://github.com/pedrobornes/loadset-legal.git
 git push -u origin main
 ```
 
-Si el repo ya existe con commits, usa solo `git push -u origin main`.
-
-## 3. Activar GitHub Pages
+## 3. Activar / comprobar GitHub Pages
 
 1. Repo → **Settings** → **Pages**
-2. **Build and deployment** → Source: **Deploy from a branch**
-3. Branch: `main` → folder: `/ (root)` → **Save**
-4. Espera 1–2 minutos. La URL será:
+2. Source: **Deploy from a branch** → `main` → `/ (root)` → **Save**
+3. URL:
 
-   **https://pedrobornes.github.io/liftlog-legal/**
+   **https://pedrobornes.github.io/loadset-legal/**
 
 ## 4. Verificar
 
-Abre en el navegador:
-
-- https://pedrobornes.github.io/liftlog-legal/privacy.html
-- https://pedrobornes.github.io/liftlog-legal/terms.html
-- https://pedrobornes.github.io/liftlog-legal/legal.html
+- https://pedrobornes.github.io/loadset-legal/privacy.html
+- https://pedrobornes.github.io/loadset-legal/terms.html
+- https://pedrobornes.github.io/loadset-legal/legal.html
 
 ## 5. Conectar la app
 
-Copia las variables de `README.md` a `liftlog/frontend/.env` y reinicia Vite.
+Las variables en `loadset/frontend/.env` ya deben apuntar a `loadset-legal`. Reinicia Vite / haz `cap:sync` si hace falta.
 
 ## Google Play (más adelante)
 
 - **Política de privacidad:** URL de `privacy.html`
-- **Data safety:** coherente con la política (email, entrenos, eliminación de cuenta en app)
+- **Data safety:** coherente con la política
