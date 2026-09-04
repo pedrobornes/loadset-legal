@@ -2,7 +2,7 @@
 
 Privacy Policy, Terms of Use, and Legal Notice for [LoadSet](https://github.com/pedrobornes/loadset).
 
-**Contact:** info@status-timer.com
+**Contact:** contact@loadset.app
 
 | Document | Link |
 |----------|------|
